@@ -10,3 +10,7 @@ function iterate(callback) {
   fruit.forEach(callback)
   return fruit
 }
+
+function doToArray(array, callback) {
+  array.forEach(callback)
+}
