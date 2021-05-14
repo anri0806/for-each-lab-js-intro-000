@@ -8,4 +8,5 @@ function iterate(callback) {
   var fruit = ["apple", "banana", "orange"]
 
   fruit.forEach(callback)
+  return fruit
 }
